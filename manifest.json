@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  
+  "name": "Text Alchemist",
+  "description": "Transform pieces of text on your inputs",
+  "version": "0.1",
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+  ]
+}
